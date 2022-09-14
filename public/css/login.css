@@ -1,0 +1,24 @@
+form{
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: column;
+    height:200px;
+    justify-content:space-around;
+    align-items:center;
+}
+
+input{
+    padding:5px
+}
+
+input.button{
+    background-color: rgb(183, 183, 183);
+    color: black;
+    width: 125px;
+}
+
+input.button:hover{
+    background-color: #0022AA;
+    color: white;
+    width: 125px;
+}
